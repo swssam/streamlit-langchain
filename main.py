@@ -1,7 +1,7 @@
 import streamlit as st
 import settings
 
-st.title("📝 석리송 전용 송PT")
+st.title("📝 정보교사를 위한 송PT")
 
 config = settings.load_config()
 if "api_key" in config:
